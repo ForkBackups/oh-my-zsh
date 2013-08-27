@@ -6,8 +6,8 @@ function vundle-init () {
 
   if [ ! -d ~/.vim/bundle/vundle/.git/ ]
   then
-    git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-    echo "\n\tRead about vim configuration for vundle at https://github.com/gmarik/vundle\n"
+    git clone http://github.com/LifeWorks/vundle.git ~/.vim/bundle/vundle
+    echo "\n\tRead about vim configuration for vundle at git@github.com:LifeWorks/vundle\n"
   fi
 }
 
